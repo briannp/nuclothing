@@ -1,0 +1,70 @@
+html, body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/***** Marquee *****/
+
+.marqueeContainer {
+    display: flex;
+    align-items: center;
+    background-color: black;    
+    overflow: hidden;
+    width: 100%;
+}
+
+.marquee {
+    font-size: 100%;
+    line-height: 1.3;
+    color: white;
+    white-space: nowrap;
+    animation: marquee 30s infinite linear;
+    width: 100%;
+    text-align: right;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0)  ;
+    }
+
+    100% {
+        transform: translateX(-100%) ;
+    }
+}
+
+
+/***** End Marquee *****/
+
+/***** Responsive Banner *****/
+
+.responsiveBanner {
+    width: 100%;
+    height: 100%;
+    background: no-repeat 50% 50%;
+    background-size: cover;
+    margin: auto;
+    display: table;
+    top: 0;
+}
+
+.bannerInner {
+    width: 100%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.bannerContent {
+    display: grid;
+    place-items: center;
+}
+
+.bannerContent img {
+    max-width: 20%;
+    filter: invert(100%);
+}
+
+/***** End Responsive Banner *****/
