@@ -107,6 +107,11 @@ html, body {
     text-align: center;
 }
 
+@media (max-width: 600px) {
+    .social-net a {
+        font-size: 25px;
+    }
+}
 /***** End Footer *****/
 
 main h1{
