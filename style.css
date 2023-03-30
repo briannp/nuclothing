@@ -216,6 +216,7 @@ header .btn {
 @media (max-width: 1060px){
     header .btn{
         display:block;
+        height: 55px;
     }
 
     header  .menu {
@@ -237,6 +238,7 @@ header .btn {
         top: 12px;
         left: 20px;
         margin: 25px;
+        line-height: 0.8;
     }
 
     header .menu a {
