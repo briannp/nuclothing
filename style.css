@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap');
+
+
 html, body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     width: 100%;
     height: 100%;
+    font-family: 'Kanit', sans-serif;
 }
 
 /***** Marquee *****/
@@ -130,8 +134,8 @@ main h1{
 
 .main-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     margin: 10px;
 }
 
@@ -140,7 +144,6 @@ main h1{
     height: 100%;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr;
     place-items: center;
     
 }
