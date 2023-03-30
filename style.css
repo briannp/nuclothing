@@ -1,10 +1,9 @@
-html, body {
+html, body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     width: 100%;
     height: 100%;
-    background-color: #f2f2f2;
 }
 
 /***** Marquee *****/
@@ -147,11 +146,12 @@ main h1{
 }
 
 .main-container .item img {
-    width: 50%;
-    height: 70%;
-    background-color: black;
+    width: 100%;
+    height: 100%;
     justify-content: center;
 }
+
+
 
 @media (max-width: 600px) {
 
@@ -161,96 +161,3 @@ main h1{
         grid-template-rows: 1fr;
     }
 }
-
-/**** Navbar *****/
-header {
-    background-color: #393e46;
-    z-index: 999;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    text-align: center;
-}
-
-header .menu {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header a img {
-    filter: invert(100%);
-    height: 20px;
-    padding: 20px
-}
-
-header .menu a {
-    color: #f2f2f2;
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration: none;
-    margin: 0 30px;
-    padding: 0 10px;
-    transition: 0.3s;
-    transition-property: color, background;
-}
-
-header .menu a:hover {
-    color: #000;
-    background: #f2f2f2;
-}
-
-header .btn {
-    color: #f2f2f2;
-    font-size: 25px;
-    cursor: pointer;
-    display: none;
-
-}
-
-@media (max-width: 1060px){
-    header .btn{
-        display:block;
-        height: 55px;
-    }
-
-    header  .menu {
-        position: fixed;
-        background: #393e46;
-        flex-direction: column;
-        min-width: 280px;
-        height: 100%;
-        top: 0;
-        right: -150%;
-        padding: 5% 13% 5%;
-        transition: 0.7s;
-        transition-property: right;
-        
-    }
-
-    header .menu .fa-xmark {
-        position: absolute;
-        top: 12px;
-        left: 20px;
-        margin: 25px;
-        line-height: 0.8;
-    }
-
-    header .menu a {
-        display: block;
-        font-size: 20px;
-        margin: 20px;
-        padding: 0 15px;
-    }
-
-    header  .menu.active {
-        right: 0;
-
-    }
-}
-/***** En Navbar *****/
