@@ -156,6 +156,10 @@ main h1{
     justify-content: center;
 }
 
+.main-container .item img:hover {
+    filter: drop-shadow(4px 6px 10px #393939);
+}
+
 
 
 @media (max-width: 600px) {
