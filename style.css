@@ -135,7 +135,7 @@ main h1{
 .main-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
     grid-row-gap: 10px;
     grid-column-gap: 10px;
     margin: 10px;
@@ -149,8 +149,16 @@ main h1{
     place-items: center;
     
 }
-
+.item1 {
+    grid-column: 1/4;
+}
 .main-container .item img {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.main2 .item img {
     width: 100%;
     height: 100%;
     justify-content: center;
