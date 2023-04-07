@@ -326,3 +326,28 @@ nav .icon-burger .line {
 }
 
 /***** End MEDIA QUERYS *****/
+
+main ::-webkit-scrollbar {
+    display: none;
+}
+.slider {
+    display: flex;
+    max-width: 750px;   
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.slider-sm {
+    max-width: 500px;
+}
+
+.slider ::-webkit-scrollbar {
+    display: none;
+}
+
+.slider img {
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
