@@ -10,7 +10,8 @@
 
 ````
 Pagina web para proyecto personal basado en indumentaria.   
-Maquetado minimalista con agregados en JS (Random Background en Banner, Marquee de informacion)
+Maquetado minimalista integramente hecho con CSS (hovers, marquees, sliders).
+Uso de Javascript unicamente para randomizacion de background.
 
 Proximamente se agregaran mas features!!
 ````
