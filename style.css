@@ -376,6 +376,23 @@ main ::-webkit-scrollbar {
     padding: 8px 12px;    
 }
 
+.checkbox ul li label:hover {
+    background: #393e46;
+    border: 1px solid #f2f2f2;
+    color: #f2f2f2;
+}
+
+.checkbox ul li input[type="checkbox"] {
+    opacity: 0;
+}
+
+.checkbox ul li input[type="checkbox"]:checked + label {
+    background: #393e46;
+    border: 1px solid #f2f2f2;
+    color: #f2f2f2;
+}
+
+
 .item-container {
     display: flex;
     width: 100%;
