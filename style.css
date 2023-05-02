@@ -50,6 +50,7 @@ html, body{
     height: 100%;
     background: no-repeat 50% 50%;
     background-size: cover;
+    background-attachment: fixed;
     margin: auto;
     display: table;
     top: 0;
